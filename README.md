@@ -1,0 +1,1 @@
+This project consist all inform about the fastapi.

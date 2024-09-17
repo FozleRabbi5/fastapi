@@ -1,5 +1,10 @@
-.
-├── app                  # "app" is a Python package
+## if we create __init__.py file. it means to python that it is a package.
+# what is package: collection of  modules.
+#  .
+├─
+
+
+─ app                  # "app" is a Python package
 │   ├── __init__.py      # this file makes "app" a "Python package"
 │   ├── main.py          # "main" module, e.g. import app.main
 │   ├── dependencies.py  # "dependencies" module, e.g. import app.dependencies

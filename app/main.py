@@ -1,3 +1,9 @@
-## if we create __init__.py file. it means to python that it is a package.
-# what is package: collection of  modules.
-#  
+from fastapi import FastAPI
+from .routers import users
+
+app = FastAPI(title="Hello FastApi")
+
+app.include_router(users.user_router,prefix="/admin", tags=['Users']
+                   , responses={418: {'d': 'p'}}
+                   )
+
